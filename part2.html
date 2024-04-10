@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            font-style: white;
+            font-size: 2em;
+        }
+        .midpart-prmtrs {
+            width: 80%;
+            max-width: 700px;
+            font-size: 1em;
+            color: white;
+        }
+        .unforgettable {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .littletxt {
+            font-size: 1em;
+            color: white;
+            font-size: 0.5em;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .korobka {
+            width: 20%;
+            height: 50px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 15%;
+            border: 3px solid white;
+            justify-content: center;
+            font-size: 0.7em;
+            text-align: center;
+            cursor: pointer;
+        }
+        .korobka:active {
+            background-color: gray;
+        }
+        .image {
+            justify-content: center;
+            display: flex;
+            z-index: +2;
+            margin-top: 20px;
+            width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="midpart-prmtrs"> 
+            <div class="unforgettable">Unforgettable Components</div>
+            <div class="littletxt">Highly Customizable Unique Tailwind CSS & Three.js Web Components. Easily Integrated into Your Projects</div>
+        </div>
+        <div class="container">
+            <div class="korobka">Lightning</div>
+            <div class="korobka">Retro Snake</div>
+            <div class="korobka">Spinning Cube</div>
+            <div class="korobka">Magic Carpets</div>
+        </div>
+    </div>
+    <img class="image" src="https://kartinki.pics/uploads/posts/2021-07/1626734143_6-kartinkin-com-p-serie-oblaka-fon-krasivo-6.jpg" alt="Clouds Background">
+</body>
+</html>
